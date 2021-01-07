@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const app = express();
 
 const requestLogger = require('./api/logger');
-
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
