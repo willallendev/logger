@@ -87,7 +87,4 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-
-bin/
-
 .idea/
